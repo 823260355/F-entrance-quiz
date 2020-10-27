@@ -1,2 +1,33 @@
 .App {
+    background-color: #f7f7f7;
+    font-size: large;
+    padding: 30px;
 }
+
+.learner_list {
+    display: flex;
+    flex-wrap: wrap;
+  
+    div,
+    button {
+      width: 100px;
+      height: 35px;
+      margin: 8px;
+      text-align: center;
+      line-height: 35px;
+    }
+  
+    #add_trainee_btn {
+      display: block;
+      border: 1px solid #929aab;
+      line-height: 30px;
+      background-color: #f7f7f7;
+    }
+  
+    input {
+      width: 92px;
+      height: 28px;
+      display: block;
+      margin: 8px;
+    }
+  }
